@@ -30,7 +30,7 @@ body {
   background-color: hsl(0, 0%, 100%);
   width: 32rem;
   height: 49.7rem;
-  border-radius: 9px;
+  border-radius: 12px;
 
   display: flex;
   flex-direction: column;
@@ -38,10 +38,11 @@ body {
   /* gap: 2.4rem; */
 
   padding: 2.4rem;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.3);
 }
 
 .container--image {
-  border-radius: 9px;
+  border-radius: 12px;
   margin-bottom: 2.8rem;
   transform: scale(1.05, 1.05);
 }
