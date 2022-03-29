@@ -1,0 +1,171 @@
+/* 
+
+-FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* overflow: hidden; */
+
+  line-height: 1;
+  font-weight: 400;
+  font-style: normal;
+  color: #555;
+  background-color: #0d192c;
+  font-size: 1.8rem;
+}
+
+.container {
+  width: 350px;
+  height: 596px;
+  background-color: #15263f;
+  padding: 2.4rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  border-radius: 14px;
+}
+
+/* IMAGE */
+
+.insider-img {
+  margin-bottom: 2.4rem;
+}
+
+.main-img {
+  width: 30.2rem;
+  height: 30.2rem;
+  border-radius: 14px;
+}
+
+/* TITLE */
+
+.insider-title {
+  font-weight: 600;
+  font-size: 2.2rem;
+  line-height: 2.8rem;
+  /* identical to box height */
+  margin-bottom: 1.6rem;
+  color: #ffffff;
+}
+
+/* DESC */
+
+.insider-desc {
+  color: #8bacd9;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 2.4rem;
+}
+
+/* TWO COLUMN */
+
+.insider--two-column {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.4rem;
+}
+
+.inline {
+  display: inline;
+}
+
+.insider--two-column div {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.insider--two-column div:nth-child(1) {
+  color: #00fff8;
+}
+
+.insider--two-column div:nth-child(2) {
+  color: #8bacd9;
+}
+
+/* HORIZONTAL LINE */
+
+.horizontal-line {
+  width: 100%;
+  border: 0;
+  border-top: 1px solid #2e405a;
+  margin-bottom: 1.6rem;
+}
+
+/* LAST DIV */
+
+.insider--last {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.6rem;
+  margin-bottom: 2.4rem;
+}
+
+.insider--last p {
+  color: #8bacd9;
+}
+
+.insider--last p span {
+  color: white;
+}
+
+.avatar {
+  width: 3.3rem;
+  height: 3.3rem;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+}
+
+.avatar + p {
+  display: inline;
+  font-size: 1.6rem;
+}
+
+/* HOVER */
+
+.hover-wannabe:hover {
+  color: #00fff8;
+  cursor: pointer;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 375px) {
+  .container {
+    width: 32.7rem;
+    height: 56.3rem;
+  }
+
+  .main-img {
+    width: 27.8rem;
+    height: 27.8rem;
+  }
+}
