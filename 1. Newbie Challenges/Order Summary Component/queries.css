@@ -1,0 +1,50 @@
+@media (max-width: 30em) {
+    .main-container {
+        width: 33.75rem;
+        height: 64rem;
+    }
+
+
+    .main-img {
+        width: 45rem;
+        /* height: 22rem; */
+        margin-bottom: 3.3rem;
+    }
+
+    .plan {
+        padding: 1.6rem;
+        margin-bottom: 2.4rem;
+    }
+
+    .plan--left {
+        margin-right: 1rem;
+    }
+
+    .plan--left img {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .plan--center {
+        margin-right: 3rem;
+    }
+
+    .plan-name {
+        font-size: 1.4rem;
+    }
+
+    .plan-price {
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        margin-bottom: 2.4rem;
+    }
+
+    .btn button {
+        padding: 1.5rem 3.2rem;
+    }
+
+
+
+}
