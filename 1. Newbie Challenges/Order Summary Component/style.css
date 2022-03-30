@@ -137,6 +137,12 @@ body {
   color: #1f2e55;
 }
 
+.plan-price {
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  color: #717FA6;
+}
+
 .plan--right a {
   font-weight: 700;
   font-size: 1.4rem;
@@ -153,6 +159,8 @@ body {
 
 .btn {
   margin-bottom: 3.2rem;
+  width: 100%;
+
 }
 
 .btn button {
@@ -164,6 +172,7 @@ body {
   font-weight: 900;
   font-size: 1.5rem;
   color: #FFFFFF;
+  width: 100%;
 }
 
 .btn button:hover {
