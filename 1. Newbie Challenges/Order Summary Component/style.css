@@ -20,6 +20,10 @@ html {
 }
 
 body {
+  background-color: hsl(225, 100%, 94%);
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-repeat: repeat-x;
+
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
@@ -31,7 +35,7 @@ body {
   line-height: 2rem;
   font-weight: 400;
   color: #555;
-  background-color: #d6e1ff;
+
   font-size: 1.6rem;
   font-family: 'Red Hat Display';
   font-style: normal;
@@ -140,7 +144,7 @@ body {
 .plan-price {
   font-size: 1.6rem;
   line-height: 2.1rem;
-  color: #717FA6;
+  color: #717fa6;
 }
 
 .plan--right a {
@@ -148,11 +152,11 @@ body {
   font-size: 1.4rem;
   line-height: 1.9rem;
   text-decoration-line: underline;
-  color: #382AE1;
+  color: #382ae1;
 }
 
 .plan--right a:hover {
-  color: #766CF1;
+  color: #766cf1;
 }
 
 /* BTN */
@@ -160,24 +164,23 @@ body {
 .btn {
   margin-bottom: 3.2rem;
   width: 100%;
-
 }
 
 .btn button {
   padding: 1.5rem 6.4rem;
-  background: #382AE1;
+  background: #382ae1;
   box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
   border: none;
   border-radius: 11px;
   font-weight: 900;
   font-size: 1.5rem;
-  color: #FFFFFF;
+  color: #ffffff;
   width: 100%;
 }
 
 .btn button:hover {
   cursor: pointer;
-  background: #766CF1;
+  background: #766cf1;
 }
 
 /* CANCEL ORDER */
@@ -185,11 +188,10 @@ body {
 .cancel-order h3 {
   font-weight: 900;
   font-size: 1.5rem;
-  color: #717FA6;
+  color: #717fa6;
 }
 
 .cancel-order h3:hover {
-
-  color: #1F2E55;
+  color: #1f2e55;
   cursor: pointer;
 }
