@@ -1,5 +1,3 @@
-const { fontFamily } = require("tailwindcss/defaultTheme");
-
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
@@ -24,9 +22,6 @@ module.exports = {
       },
       borderRadius: {
         "4xl": "2rem",
-      },
-      fontFamily: {
-        hankenGrotesk: ["var(--font-hankenGrotesk)", ...fontFamily.sans],
       },
     },
   },
