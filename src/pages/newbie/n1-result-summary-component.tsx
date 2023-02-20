@@ -8,6 +8,20 @@ import Card from "@/components/newbie/n1/Card";
 import data from "@/../public/n1/data.json";
 
 const ResultSummaryComponent = () => {
+  const classBg = [
+    "bg-n1LightRed",
+    "bg-n1OrangeyYellow",
+    "bg-n1GreenTeal",
+    "bg-n1CobaltBlue",
+  ];
+
+  const classText = [
+    "text-n1LightRed100",
+    "text-n1OrangeyYellow100",
+    "text-n1GreenTeal100",
+    "text-n1CobaltBlue100",
+  ];
+
   return (
     <main
       className={`${hankenGrotesk.className} flex h-screen w-screen flex-col items-center justify-start bg-n1VeryLightBlue font-hankenGrotesk md:justify-center`}
@@ -41,13 +55,13 @@ const ResultSummaryComponent = () => {
             Summary
           </h3>
           <div className="w-full space-y-4 md:mb-10">
-            {data.map((item) => (
+            {data.map((item, i) => (
               <Card
                 key={item.icon}
                 text={item.category}
                 image={item.icon}
-                bg={item.bg}
-                textColor={item.textColor}
+                bg={classBg[i]}
+                textColor={classText[i]}
               />
             ))}
           </div>

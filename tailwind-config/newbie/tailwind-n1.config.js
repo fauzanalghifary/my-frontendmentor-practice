@@ -17,7 +17,7 @@ module.exports = {
         n1OrangeyYellow100: "hsl(39, 100%, 56%, 100%)",
         n1GreenTeal: "hsl(166, 100%, 37% , 5%)",
         n1GreenTeal100: "hsl(166, 100%, 37% , 100%)",
-        n1CobaltBlue100: "hsl(234, 85%, 45%, 5%)",
+        n1CobaltBlue: "hsl(234, 85%, 45%, 5%)",
         n1CobaltBlue100: "hsl(234, 85%, 45%, 100%)",
       },
       borderRadius: {

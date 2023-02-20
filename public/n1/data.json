@@ -3,28 +3,28 @@
     "category": "Reaction",
     "score": 80,
     "icon": "/n1/images/icon-reaction.svg",
-    "bg": "bg-n1LightRed",
-    "textColor": "text-n1LightRed"
+    "bg": "n1LightRed",
+    "textColor": "n1LightRed100"
   },
   {
     "category": "Memory",
     "score": 92,
     "icon": "/n1/images/icon-memory.svg",
-    "bg": "bg-n1LightRed",
-    "textColor": "text-n1LightRed"
+    "bg": "n1OrangeyYellow",
+    "textColor": "n1OrangeyYellow100"
   },
   {
     "category": "Verbal",
     "score": 61,
     "icon": "/n1/images/icon-verbal.svg",
-    "bg": "bg-n1LightRed",
-    "textColor": "text-n1LightRed"
+    "bg": "n1GreenTeal",
+    "textColor": "n1GreenTeal100"
   },
   {
     "category": "Visual",
     "score": 72,
     "icon": "/n1/images/icon-visual.svg",
-    "bg": "bg-n1LightRed",
-    "textColor": "text-n1LightRed"
+    "bg": "n1CobaltBlue100",
+    "textColor": "n1CobaltBlue100"
   }
 ]
