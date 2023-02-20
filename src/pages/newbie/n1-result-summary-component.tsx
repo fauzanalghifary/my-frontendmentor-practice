@@ -44,7 +44,11 @@ const ResultSummaryComponent = () => {
             </h4>
             <div className="absolute top-1/2 left-1/2 z-10 h-36 w-36 -translate-y-1/2 -translate-x-1/2 transform rounded-full bg-gradient-to-b from-n1VioletBlue to-n1PersianBlue md:mb-20 md:h-52 md:w-52"></div>
           </div>
-          <h3 className="mb-2 text-2xl md:mb-3">Great</h3>
+          <h3
+            className={`${hankenGroteskBold.className} mb-2 text-2xl md:mb-3 md:text-3xl`}
+          >
+            Great
+          </h3>
           <p className="text-center text-n1LightLavender">
             Your performance exceed 65% of the people conducting the test here!
           </p>
