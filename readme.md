@@ -10,7 +10,7 @@ I am working on completing all the challenges on frontendmentor.io
 
 ## Newbie Level Challenges
 
-- [ ] Results summary component
+- [x] Results summary component (2023-02-20)
 - [ ] Product preview card component
 - [ ] Skilled e-learning landing page
 - [ ] Interactive rating component
