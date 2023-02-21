@@ -11,7 +11,7 @@ I am working on completing all the challenges on frontendmentor.io
 ## Newbie Level Challenges
 
 - [x] Results summary component (2023-02-20)
-- [ ] Product preview card component
+- [x] Product preview card component (2023-02-21)
 - [ ] Skilled e-learning landing page
 - [ ] Interactive rating component
 - [ ] QR code component
