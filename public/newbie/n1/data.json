@@ -2,21 +2,21 @@
   {
     "category": "Reaction",
     "score": 80,
-    "icon": "/n1/images/icon-reaction.svg"
+    "icon": "/newbie/n1/images/icon-reaction.svg"
   },
   {
     "category": "Memory",
     "score": 92,
-    "icon": "/n1/images/icon-memory.svg"
+    "icon": "/newbie/n1/images/icon-memory.svg"
   },
   {
     "category": "Verbal",
     "score": 61,
-    "icon": "/n1/images/icon-verbal.svg"
+    "icon": "/newbie/n1/images/icon-verbal.svg"
   },
   {
     "category": "Visual",
     "score": 72,
-    "icon": "/n1/images/icon-visual.svg"
+    "icon": "/newbie/n1/images/icon-visual.svg"
   }
 ]

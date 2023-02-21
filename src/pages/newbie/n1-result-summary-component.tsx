@@ -5,7 +5,7 @@ import {
 } from "@/../public/fonts";
 import Card from "@/components/newbie/n1/Card";
 
-import data from "@/../public/n1/data.json";
+import data from "@/../public/newbie/n1/data.json";
 
 const ResultSummaryComponent = () => {
   const classBg = [
@@ -24,7 +24,7 @@ const ResultSummaryComponent = () => {
 
   return (
     <main
-      className={`${hankenGrotesk.className} flex h-screen w-screen flex-col items-center justify-start bg-n1VeryLightBlue font-hankenGrotesk md:justify-center`}
+      className={`${hankenGrotesk.className} font-hankenGrotesk flex h-screen w-screen flex-col items-center justify-start bg-n1VeryLightBlue md:justify-center`}
     >
       <section className="flex h-screen w-screen flex-col items-center justify-start bg-white shadow-sm shadow-n1PersianBlue md:h-[512px] md:w-[738px] md:flex-row md:justify-center md:rounded-4xl">
         {/* LEFT CONTAINER */}
