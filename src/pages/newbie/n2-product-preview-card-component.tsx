@@ -27,7 +27,7 @@ const ProductReviewCardComponent = () => {
           />
         </div>
         {/* RIGHT CONTAINER */}
-        <div className="flex h-3/5 flex-col items-start justify-center rounded-b-xl bg-white p-6 sm:h-full sm:w-1/2 sm:rounded-r-xl sm:rounded-l-none sm:py-8">
+        <div className="flex h-3/5 flex-col items-start justify-center rounded-b-xl bg-white p-6 sm:h-full sm:w-1/2 sm:rounded-r-xl sm:rounded-l-none sm:py-8 sm:px-8">
           <h4 className="text-n2DarkGrayishBlue mb-3 text-xs uppercase leading-4 tracking-[5px]">
             Perfume
           </h4>
