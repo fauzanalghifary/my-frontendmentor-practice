@@ -15,6 +15,12 @@ const Newbie = () => {
       >
         Product Preview Card Component
       </Link>
+      <Link
+        className="text-cyan-300"
+        href="/newbie/n3-skilled-elearning-landing-page"
+      >
+        Skilled Elearning Landing Page
+      </Link>
     </div>
   );
 };
