@@ -1,4 +1,9 @@
-import { Hanken_Grotesk, Montserrat, Fraunces } from "@next/font/google";
+import {
+  Hanken_Grotesk,
+  Montserrat,
+  Fraunces,
+  Plus_Jakarta_Sans,
+} from "@next/font/google";
 
 export const hankenGrotesk = Hanken_Grotesk({
   subsets: ["latin"],
@@ -28,4 +33,19 @@ export const montserratBold = Montserrat({
 export const fraunces = Fraunces({
   subsets: ["latin"],
   weight: "700",
+});
+
+export const plusJakartaSans = Plus_Jakarta_Sans({
+  subsets: ["latin"],
+  weight: "500",
+});
+
+export const plusJakartaSansBold = Plus_Jakarta_Sans({
+  subsets: ["latin"],
+  weight: "700",
+});
+
+export const plusJakartaSansExtraBold = Plus_Jakarta_Sans({
+  subsets: ["latin"],
+  weight: "800",
 });
